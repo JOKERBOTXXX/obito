@@ -1,7 +1,8 @@
 {
-    "name": "My Codespace",
+    "name": "obito Codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
-    "postStartCommand": "python /workspaces/obito/K3.py",
+    "postStartCommand": "echo '*'; echo '*         @LEGENDXOPL Bot Running      *'; echo '*'; python /workspaces/obito/K3.py",
+    "postCreateCommand": "pip install pymongo python-telegram-bot pyTelegramBotAPI certifi && chmod +x /workspaces/obito/*",
     "customizations": {
         "vscode": {
             "settings": {
